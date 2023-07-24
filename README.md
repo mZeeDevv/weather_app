@@ -6,4 +6,7 @@ i.e
 ### Description 
 ### Humidity
 ### wind speed
+
+## Screenshots
+![Weather](https://github.com/mZeeDevv/weather_app/assets/62940100/fda195da-3df5-4a93-8c77-cd223e4a759e)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
