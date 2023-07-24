@@ -1,5 +1,4 @@
 const apikey = "841aa35c8cdc8c5c8e3274991502e029";
-
 const weatherData = document.getElementById("weather-data");
 const cityData = document.getElementById("city-input");
 const form = document.querySelector("form");
@@ -37,7 +36,7 @@ async function getWeather(cityValue)
     } catch (error) {
         weatherData.querySelector(".icon").innerHTML = " ";
         weatherData.querySelector(".temperature").textContent = " "
-        weatherData.querySelector(".description").textContent = "An error happened try again later."
+        weatherData.querySelector(".description").textContent = "Oops! something went wrong please try again later"
         weatherData.querySelector(".details").innerHTML = 
         " ";
         
